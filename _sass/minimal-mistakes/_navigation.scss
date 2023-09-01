@@ -440,9 +440,15 @@
 .nav__list .nav__items {
   margin: 0;
   font-size: 1.25rem;
+  font-family: $NanumPenScript;
 
   a {
-    color: inherit;
+    color: #000000;
+  }
+
+  a:hover{
+    color:orange;
+    opacity: 0.65;
   }
 
   .active {
@@ -483,7 +489,6 @@
 .nav__title {
   margin: 0;
   padding: 0.5rem 0.75rem;
-  font-family: $sans-serif-narrow;
   font-size: $type-size-5;
   font-weight: bold;
 }
@@ -492,11 +497,10 @@
   display: block;
   margin: 0.5rem 0;
   padding: 0.25rem 0;
-  font-family: $sans-serif-narrow;
-  font-size: $type-size-6;
+  font-size: $type-size-3;
   font-weight: bold;
-  text-transform: uppercase;
-  border-bottom: 1px solid $border-color;
+  //text-transform: uppercase;
+  //border-bottom: 1px solid $border-color;
 }
 
 /*

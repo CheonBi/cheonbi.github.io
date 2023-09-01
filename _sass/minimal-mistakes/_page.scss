@@ -412,13 +412,20 @@ body {
 }
 
 .back-to-top {
-  display: block;
+  display:inline-block;
   clear: both;
-  color: $muted-text-color;
+  color:azure;
+
   font-size: 0.6em;
   text-transform: uppercase;
-  text-align: right;
+  text-align: left;
   text-decoration: none;
+
+  background-color: aquamarine;
+  padding: 5px;
+  border-radius: 10%;
+  
+
 }
 
 /*

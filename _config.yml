@@ -104,27 +104,27 @@ analytics:
 
 # Site Author
 author:
-  name             : "CheonBi"
+  #name             : "CheonBi"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : " 나비처럼 날고 싶은 사람 "
-  location         : "South Korea"
+  #bio              : " 나비처럼 날고 싶은 사람 "
+  #location         : "South Korea"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://cheonbi.github.io"
+    - #label: "Website"
+      #icon: "fas fa-fw fa-link"
+      #url: "https://cheonbi.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/CheonBi"
+    - #label: "GitHub"
+      #icon: "fab fa-fw fa-github"
+      #url: "https://github.com/CheonBi"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -291,3 +291,5 @@ defaults:
       share: true
       related: true
       show_date: true 
+      sidebar:
+        nav: "sidebar"

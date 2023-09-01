@@ -1,12 +1,25 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "Category"
+  # - title: "Category"
+  #  url: /categories
+  # - title: "Quick-Start Guide"
+  #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+
+  - title: "Home"
+    url: https://cheonbi.github.io/
+
+  - title: "About"
     url: /categories
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+
+  - title: "GitHub"
+    url: https://github.com/CheonBi
+
+
+
+sidebar:
+  - title: "C++"
+    url: /categories
+  - title: "Java"
+    url: /categories
+  - title: "CS"
+    url: /categories
