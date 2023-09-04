@@ -22,6 +22,7 @@ $NanumGothic: 'Nanum Gothic', -apple-system, BlinkMacSystemFont, "Roboto", "Sego
 $NanumPenScript: 'Nanum Pen Script' , -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
 "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 $NotoSansKorean: 'Noto Sans KR', sans-serif !default;
+$thead-serif:'Annie Use Your Telescope', cursive !default;
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
@@ -55,6 +56,9 @@ $h-size-3: 1.125em !default; // ~18px
 $h-size-4: 1.0625em !default; // ~17px
 $h-size-5: 1.03125em !default; // ~16.5px
 $h-size-6: 1em !default; // ~16px
+
+/* custom scale */
+$type-size-custom-1: 0.87em !default;
 
 /*
    Colors
