@@ -17,9 +17,11 @@ main:
 
 
 sidebar:
-  - title: "C++"
-    url: /categories
+  - title: "C++/C"
+    url: /categories/cpp/
   - title: "Java"
-    url: /categories
+    url: /categories/Java/
   - title: "CS"
-    url: /categories
+    url: /categories/CS/
+  - title: "날적이"
+    url: /categories/blog/

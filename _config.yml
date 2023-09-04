@@ -20,7 +20,7 @@ title                    : "CheonBi's LAB"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "CheonBi"
-description              : "Laboratory and Repository"
+description              : # "Laboratory and Repository"
 url                      : "https://cheonbi.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "CheonBi/cheonbi.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -286,10 +286,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: # true
+     # read_time: true
+     # comments:  true
       share: true
-      related: true
+      related: false
       show_date: true 
       sidebar:
         nav: "sidebar"

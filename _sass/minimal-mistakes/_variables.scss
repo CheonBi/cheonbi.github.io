@@ -23,6 +23,7 @@ $NanumPenScript: 'Nanum Pen Script' , -apple-system, BlinkMacSystemFont, "Roboto
 "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 $NotoSansKorean: 'Noto Sans KR', sans-serif !default;
 $thead-serif:'Annie Use Your Telescope', cursive !default;
+$apple: -apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Montserrat","Pretendard","Merriweather",sans-serif !default;
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
@@ -46,11 +47,13 @@ $type-size-3: 1.563em !default; // ~25.008px
 $type-size-4: 1.25em !default; // ~20px
 $type-size-5: 1em !default; // ~16px
 $type-size-6: 0.75em !default; // ~12px
+
 $type-size-7: 0.6875em !default; // ~11px
 $type-size-8: 0.625em !default; // ~10px
 
 /* headline scale */
 $h-size-1: 1.563em !default; // ~25.008px
+$h-size-1-1: 1.3em !default; // ~25.008px
 $h-size-2: 1.25em !default; // ~20px
 $h-size-3: 1.125em !default; // ~18px
 $h-size-4: 1.0625em !default; // ~17px
@@ -182,6 +185,7 @@ $right-sidebar-width-wide: 400px !default;
    ========================================================================== */
 
 $border-radius: 4px !default;
+$border-radius-2: 25px !default;
 $box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125) !default;
 $nav-height: 2em !default;
 $nav-toggle-height: 2rem !default;

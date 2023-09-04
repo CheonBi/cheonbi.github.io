@@ -120,17 +120,17 @@
   /* next/previous buttons */
   &--pager {
     display: block;
-    padding: 1em 2em;
+    padding: 0.5em 2em;
     float: left;
     width: 50%;
-    font-family: $sans-serif;
+    font-family: $NotoSansKorean;
     font-size: $type-size-5;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    color: $muted-text-color;
+    color: $black;
     border: 1px solid mix(#000, $border-color, 25%);
-    border-radius: $border-radius;
+    border-radius: $border-radius-2;
 
     &:hover {
       @include yiq-contrasted($muted-text-color);
