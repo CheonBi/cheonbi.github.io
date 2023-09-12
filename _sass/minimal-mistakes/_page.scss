@@ -36,6 +36,8 @@ body {
 }
 
 .page {
+  font-size: 18px;
+  
   @include breakpoint($large) {
     float: right;
     width: calc(100% - #{$right-sidebar-width-narrow});
