@@ -23,5 +23,10 @@ sidebar:
     url: /categories/Java/
   - title: "CS"
     url: /categories/CS/
+  - title: "Network"
+    url: /categories/network/
+  - title: "Interview"
+    url: /categories/interview/
   - title: "날적이"
     url: /categories/blog/
+  
