@@ -27,6 +27,8 @@ sidebar:
     url: /categories/network/
   - title: "Interview"
     url: /categories/interview/
+  - title: "Code Test"
+    url: /categories/test/
   - title: "날적이"
     url: /categories/blog/
   
