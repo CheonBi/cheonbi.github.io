@@ -1,9 +1,9 @@
 ---
-title: "Code Test"
+title: "Vue"
 layout: category
-permalink: /categories/test/
+permalink: /categories/vue/
 author_profile: true
-taxonomy: test
+taxonomy: vue
 sidebar:
     nav: "sidebar"
 ---
