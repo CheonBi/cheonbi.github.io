@@ -21,6 +21,8 @@ sidebar:
     url: /categories/cpp/
   - title: "Java"
     url: /categories/Java/
+  - title: "Algo"
+    url: /categories/algorithm/
   - title: "CS"
     url: /categories/CS/
   - title: "Network"
