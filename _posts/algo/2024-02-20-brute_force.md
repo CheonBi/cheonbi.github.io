@@ -8,8 +8,8 @@ categories:
 
 ## 1. Brute Force
 브루트포스 
-brute : 무식한 , force: 힘
-브루트 포스는 모든 경우를 고려하는 기법이다.
+brute : 무식한 , force: 힘  
+브루트 포스는 모든 경우를 고려하는 기법이다.  
 가능한 모든 조합을 다 탐색하므로 답을 무조건 찾을 수 있으나 비용이 매우크다.
 
 시간복잡도가 매우 큰 기법이다. 
@@ -30,7 +30,7 @@ brute : 무식한 , force: 힘
 이 단계는 시간 복잡도를 대략적으로 추정하는 것이다. 대부분 손으로 계산해 볼수 있는 부분이고 직접 계산을 통해 구한다.
 
 2) 가능한 모든 방법을 다 만들어본다.
-**단 한가지 경우라도 빠짐없이 만들어야 한다.** 
+**단 한가지 경우라도 빠짐없이 만들어야 한다.**  
 소스코드로 구현시 방법은 여러가지가 존재한다.
 
 ```
@@ -40,7 +40,7 @@ brute : 무식한 , force: 힘
 - 비트마스크 
 ```
 
-3) 각각의 방법을 이용해 답을 구한다.
+3) 각각의 방법을 이용해 답을 구한다.  
 보통 브루트포스 기법이 적용가능한 문제는 어렵지 않다. 문제를 따라가다보면 답을 구하는 경우가 많다.
 
 ## 3. 경우의 수
@@ -86,3 +86,43 @@ https://www.acmicpc.net/problem/2309
 > 아홉 명의 난쟁이는 모두 자신이 "백설 공주와 일곱 난쟁이"의 주인공이라고 주장했다. 뛰어난 수학적 직관력을 가지고 있던 백설공주는, 다행스럽게도 **일곱 난쟁이의 키의 합이 100이 됨을 기억해 냈다.**
 >
 >아홉 난쟁이의 키가 주어졌을 때, 백설공주를 도와 일곱 난쟁이를 찾는 프로그램을 작성하시오
+
+
+```text
+일곱난쟁이 키의 합이 100이므로 9명 중 7명을 골라서 풀게되면 for문을 7번 중첩해야한다.
+
+9 Combination 7 은 9 Combination 2 와 같다.
+즉, 9명의 키 합에서 나머지 두명의 키를 뺀 값이 일곱 난쟁이의 키를 모두 합한 값이다.
+```
+
+
+```java
+import java.util.*;
+import java.io.*;
+public class Main {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int[] arr = new int[9];
+        int sum = 0;
+
+        for (int i = 0; i < 9; i++) {
+            arr[i] = Integer.parseInt(br.readLine());
+            sum += arr[i];
+        }
+
+        for (int i = 0; i < 8; i++) {
+            for (int j = i+1; j < 9; j++) {
+                if (sum - arr[i] - arr[j] == 100) {
+                    arr[i] = 0;
+                    arr[j] = 0;
+                    Arrays.sort(arr); //오름차순 정렬
+                    for (int k = 2; k < 9; k++) { // 0 처리된 fake 난쟁이를 건너뛰고 출력
+                        System.out.println(arr[k]);
+                    }
+                    return;
+                }
+            }
+        }
+    }
+}
+```
